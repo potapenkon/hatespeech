@@ -1,0 +1,381 @@
+html, body {
+	height: 100%;
+}
+body {
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+.homepage {
+	height: 100%;
+	position: relative;
+	background-image: url("../images/background_homepage.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #432e59;
+}	
+.header {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	z-index: 1000;
+	
+}
+.headerfix {
+	width: 907px;
+	height: 100px;
+	margin: 0 auto;
+}
+/*Кнопка хедер*/
+.btnheader {
+	float: right;
+	margin: 33px 0;
+	}
+/*Контент*/
+.vertcenter {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.content {
+	position: absolute;
+    width: 100%;
+    height: 520px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.logofont {
+	font-size: 125px;
+	line-height: 0;
+}
+.textcontent {
+	color: white;
+	font-family: "v_ccadamkubertregular";
+	font-size: 57px;
+	text-shadow: 2px 2px 0 black;	
+}
+/*Меню*/
+.boxmenu {
+	background-color: #2e2738;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+.boxmenupa {
+	position: absolute;
+}
+.menu {
+	width: 907px;
+	padding: 35px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+.btnmenu {
+	color: white;
+	font-family: "v_badaboom_bbregular";
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 0 black;
+    padding: 20px 54px;
+}
+.btnmenu:hover {
+	color: #eda51b;
+	}
+/*Страница список инструкций*/
+.menuactive {
+	color: #eda51b;
+}
+.internalpages {
+	background-color: #2e2738;
+}
+.slogo {
+	font-size: 65px;
+    letter-spacing: 2px;
+    width: 344px;
+    float: left;
+	color: #eda51b;
+}
+a.logo {
+	color: #eda51b;
+}
+a.logo:hover {
+	color: #eda51b;
+}
+.content_ipage {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+	width: 100%;
+	height: 518px;
+	}
+.content_ipage2 {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+	width: 100%;
+	height: 518px;
+	}
+.whitebox {
+	position: relative;
+	background-color: white;
+	width: 907px;
+	height: 518px;
+	margin: 0 auto;
+}
+.instructions {
+	width: 867px;
+	height: 478px;
+	position: relative;
+	border: 20px solid white;
+    margin: 0 auto;
+}
+.instruction {
+	color: white;
+	font-family: "v_badaboom_bbregular";
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 0 black;
+	text-align: center;
+	background-image: url("../images/instruction_1.jpg");
+	background-repeat: no-repeat;
+	width: 289px;
+	height: 478px;
+	float: left;
+}
+.instruction:hover {
+	color: #eda51b;
+	text-align: center;
+	background-image: url("../images/instruction_hover_1.jpg");
+	}
+.textbox {
+	position: relative;
+	top: 355px;
+	}
+.instruction2 {
+	color: white;
+	font-family: "v_badaboom_bbregular";
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 0 black;
+	text-align: center;
+	background-image: url("../images/instruction_2.jpg");
+	background-repeat: no-repeat;
+	width: 289px;
+	height: 478px;
+	float: left;
+}
+.instruction2:hover {
+	color: #eda51b;
+	text-align: center;
+	background-image: url("../images/instruction_hover_2.jpg");
+	}
+.instruction3 {
+	color: white;
+	font-family: "v_badaboom_bbregular";
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 0 black;
+	text-align: center;
+	background-image: url("../images/instruction_3.jpg");
+	background-repeat: no-repeat;
+	width: 289px;
+	height: 478px;
+	float: left;
+}
+.instruction3:hover {
+	color: #eda51b;
+	text-align: center;
+	background-image: url("../images/instruction_hover_3.jpg");
+	}
+/*Инструкции подробнее*/
+.instruction_more1 {
+	background-image: url("../images/instruction_more_1.jpg");
+	background-repeat: no-repeat;
+	border: 20px solid white;
+	width: 867px;
+	height: 478px;
+	position: relative;
+	margin: 0 auto;
+}
+.instruction_more2 {
+	background-image: url("../images/instruction_more_2.jpg");
+	background-repeat: no-repeat;
+	border: 20px solid white;
+	width: 862px;
+	height: 477px;
+	position: relative;
+	margin: 0 auto;
+	}
+.instruction_more3 {
+	background-image: url("../images/instruction_more_3.jpg");
+	background-repeat: no-repeat;
+	border: 20px solid white;
+	width: 862px;
+	height: 477px;
+	position: relative;
+	margin: 0 auto;
+	
+}
+.textinst {
+	width: 100%;
+	background-color: #dbccc6;
+	}
+.boxmenu2 {
+	background-color: none;
+	height: 100px;
+	width: 100%;
+	}
+.textcentre {
+	width: 907px;
+	text-align: left;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: "nerislight";
+	color: #111111;
+	}
+.p1 {
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+p.btncente {
+	text-align: center;
+}
+/* О проекте */
+.aboutimg {
+	background-image: url("../images/about_project.png");
+	background-repeat: no-repeat;
+	width: 867px;
+	height: 518px;
+	position: absolute;
+	top: -21px;
+	left: 22px;
+}
+.abouttext{
+	color: white;
+	font-size: 22px;
+    position: absolute;
+    top: 40px;
+    left: 49%;
+    width: 404px;
+    line-height: 30px;
+	padding: 20px;
+}
+/*Тесты*/
+.wrapper {
+	width: 400px;
+}
+.radio {
+	vertical-align: top;
+	width: 23px;
+	height: 23px;
+	margin: 0 3px 0 0;
+}
+.radio + label {
+	cursor: pointer;
+}
+.radio:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.radio:not(checked) + label {
+	color: black;
+	font-family: "v_ccadamkubertregular";
+	font-size: 18px;
+	position: relative;
+	padding: 0 0 0 40px;
+}
+.radio:not(checked) + label:before {
+	content: '';
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 23px;
+    height: 23px;
+    border: 2px solid #d3cfc8;
+    border-top-left-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 21px;
+    background: white;
+    box-shadow: 2px 2px 0 #c2c2c2;
+}
+.radio:not(checked) + label:after {
+	content: '';
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #7eca22;
+    border: 1px solid #7eca22;
+    box-shadow: inset 0 -3px 6px rgba(84,133,25,.5);
+    opacity: 0;
+    transition: all .2s;
+}
+.radio:checked + label:after {
+	opacity: 1;
+}
+.radio:focus + label:before {
+	border: 2px solid #7eca22;
+}
+
+input[type='reset'] {
+	padding: 12px 15px;
+	border: none;
+	border-radius: 5px;
+	background: #CDD1DA;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 15px;
+}
+input[type='reset']:active {
+	background: #BDC0CC;
+}
+input[type='reset']:focus {
+	outline: none;
+	box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+}
+.testimg {
+	background-image: url("../images/img_test.png");
+	background-repeat: no-repeat;
+	width: 867px;
+	height: 518px;
+	position: absolute;
+	top: -21px;
+	left: 22px;
+	
+}
+.formtest {
+	position: absolute;
+	top: 55%;
+    left: 60%;
+}
+.pagination {
+	color: white;
+	font-family: "v_badaboom_bbregular";
+	font-size: 48px;
+	letter-spacing: 2px;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+.bubbletext {
+	width: 165px;
+    color: black;
+    font-family: "v_ccadamkubertregular";
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 21%;
+    right: 28%;
+}
+.btntest {
+	float: right;
+    position: absolute;
+    right: 63px;
+    top: 130px;
+}
